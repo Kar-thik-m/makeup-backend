@@ -9,7 +9,7 @@ const clusterName=process.env.DB_CLUSTER || '';
 const dbName=process.env.DB_NAME || '';
 
 
-const cloudMongoUrl=`mongodb+srv://${username}:${password}@${clusterName}/${dbName}?retryWrites=true&w=majority&appName=Cluster0`;
+const cloudMongoUrl=`mongodb+srv://${username}:${password}@${clusterName}/{dbName}?retryWrites=true&w=majority&appName=Cluster0`;
 
 
 
